@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyColletions</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-main">My Colletions</div>
+        <div class="hedaer-list">
+            <ul>
+                <a href="#novel">小説</a>
+                <a href="#manga">漫画</a>
+                <a href="#movie">映画</a>
+                <a href="#anime">アニメ</a>
+                <a href="#drama">ドラマ</a>
+                <a href="#music">音楽</a>
+                <a href="#game">ゲーム</a>
+                <a href="#other">その他</a>
+            </ul>
+        </div>
+    </div>
+
+    <h1 class="collection-type" id="novel">小説</h1>
+    <ol class="collections"></ol>
+    <input type="text" class="collection" size="60" maxlength="356">
+    <button id="novel-button">追加</button>
+    <button id="novel-Dbutton">削除</button>
+
+    <h1 class="collection-type" id="manga">漫画</h1>
+    <ol class="collections"></ol>
+    <input type="text" class="collection" size="60" maxlength="356">
+    <button id="manga-button">追加</button>
+    <button id="manga-Dbutton">削除</button>
+
+    <h1 class="collection-type" id="movie">映画</h1>
+    <ol class="collections"></ol>
+    <input type="text" class="collection" size="60" maxlength="356">
+    <button id="movie-button">追加</button>
+    <button id="movie-Dbutton">削除</button>
+
+    <h1 class="collection-type" id="anime">アニメ</h1>
+    <ol class="collections"></ol>
+    <input type="text" class="collection" size="60" maxlength="356">
+    <button id="anime-button">追加</button>
+    <button id="anime-Dbutton">削除</button>
+
+    <h1 class="collection-type" id="drama">ドラマ</h1>
+    <ol class="collections"></ol>
+    <input type="text" class="collection" size="60" maxlength="356">
+    <button id="drama-button">追加</button>
+    <button id="drama-Dbutton">削除</button>
+
+    <h1 class="collection-type" id="music">音楽</h1>
+    <ol class="collections"></ol>
+    <input type="text" class="collection" size="60" maxlength="356">
+    <button id="music-button">追加</button>
+    <button id="music-Dbutton">削除</button>
+
+    <h1 class="collection-type" id="game">ゲーム</h1>
+    <ol class="collections"></ol>
+    <input type="text" class="collection" size="60" maxlength="356">
+    <button id="game-button">追加</button>
+    <button id="game-Dbutton">削除</button>
+
+    <h1 class="collection-type" id="other">その他</h1>
+    <ol class="collections"></ol>
+    <input type="text" class="collection" size="60" maxlength="356">
+    <button id="other-button">追加</button>
+    <button id="other-Dbutton">削除</button>
+
+    <br>
+    <br>
+    <div id="bottom-button">
+        <button id="delete-all">全削除ボタン</button>
+    </div>
+    <div class="footer">
+        <div class="footer-main">つかいかた</div>
+        <div class="footer-list">
+            <ul>
+                <p>自分の持っているコレクション(現物でもデータでも！)をこのサイトに書き込んで整理してみようxD</p>
+                <br>●追加ボタン・・・テキストボックスに入力されたコレクション名を１から順番に追加します
+                <br>●削除ボタン・・・コレクションを下から順番に消していきます
+            </ul>
+        </div>
+    </div>
+
+    <script src="mycollections.js"></script>
+</body>
+</html>
